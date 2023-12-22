@@ -1,0 +1,23 @@
+**Quel genre d'individu suis-je ?**
+<p>Je m'appelle Mykyta (mais vous pouvez aussi m'appeler Nikita si vous préférez, l'accent est mis sur la deuxième syllabe), ou penguin_nube (en ligne). Je suis un développeur originaire d'Ukraine, actuellement basé en France, et étudiant en informatique à l'université Paris-8.</p>
+
+
+**Approche de la programmation. Intérêts liés à la technologie.**
+<p>Depuis mon enfance, j'ai été fasciné par les composants informatiques et les appareils mobiles. En tant qu'élève de 7e année, j'aidais fréquemment les enseignants en informatique à donner des cours et à réparer des ordinateurs. Ce qui m'attirait, c'était le fait que je pouvais construire quelque chose de fonctionnel, entièrement par moi-même, sans trop d'efforts. Avec le temps, cet intérêt a évolué vers la programmation.
+« La plupart des bons programmeurs programment non pas parce qu'ils s'attendent à être payés ou à être acclamés par le public, mais parce que programmer est amusant. » - Linus Torvalds.
+Le simple fait de créer quelque chose me procure une joie incroyable, peu importe le sujet. Le processus lui-même est important. Cependant, il y a seulement deux domaines où je me vois évoluer, et actuellement, je cherche à me développer : l'apprentissage profond et les technologies blockchain. Je vois le plus grand potentiel dans ces domaines (en dehors du développement de systèmes d'exploitation et de pilotes pour eux). Je suis particulièrement attiré par la possibilité de créer une "fondation" sur laquelle il sera possible de construire des écosystèmes à l'avenir. Je me vois donc, dans le futur, en tant que développeur de réseaux neuronaux, principalement axés sur l'analyse audio et visuelle.</p>
+
+
+**Expérience professionnelle**
+<p>De septembre 2021 jusqu'au 24 février 2022, j'ai travaillé sur la plateforme de freelance ukrainienne freelancehunt.com (actuellement, le compte est désactivé). Mes activités portaient principalement sur le développement de scripts d'automatisation en Python (selenium), de parseurs (bs4 + requests, python cloudfire), de bots pour les médias sociaux et les messageries (aiogram, PyTelegramBotApi, Telethon, DiscordAPI), ainsi que de sites web simples (python django/flask côté serveur, et HTML + CSS pour le rendu côté serveur, ou React.js pour le rendu côté client). En parallèle, j'ai acquis de l'expérience dans l'administration de systèmes d'exploitation Linux (Arch Linux, Arco Linux, Ubuntu, Kali Linux, Parrot Security OS) et de Windows R-server 2016. Depuis 2020, je suis un passionné des plateformes LeetCode, CodeWars, du projet Euler (projecteuler.net) et de HackTheBox.</p>
+
+
+**Stack technologique**
+<p>Obsolète (j'ai eu de l'expérience mais ce n'est plus d'actualité) :
+<br>- PHP : compréhension basique de la syntaxe, capacité à travailler avec OpenServer.
+<br>- JavaScript : compréhension basique de la syntaxe en JavaScript pur et en Node.js. Expérience dans l'interaction avec Vue.js et React.js.</p>
+Actuel :
+<p>- Python : mon langage de programmation principal, couvrant 90% de tous mes besoins, de développement web à la création de réseaux neuronaux (principalement avec Tensorflow + Keras Sequential) et au développement web3 (utilisant la bibliothèque du même nom).
+- Rust : à mon avis, le langage le plus prometteur à l'heure actuelle. Je suis très intéressé par ce langage et je m'efforce activement d'en apprendre davantage sur ses capacités et sa bibliothèque standard (principalement les fonctionnalités std en termes d'écriture de pilotes pour les systèmes d'exploitation Linux).
+- HTML + CSS : compétences dans la création de pages web interactives et réactives, ainsi que l'intégration avec le moteur de templates Jinja. Expérience dans l'interaction avec Bootstrap.
+</p>
