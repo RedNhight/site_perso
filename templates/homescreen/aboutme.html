@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+{% for pub in publications %}
+	<a href="#">
+		<div>
+			<img src="">
+			<h3>{{ pub.title }}</h3>
+			<p>{{ pub.description }}</p>
+		</div>
+	</a>
+{% endfor %}
+<div class="wrapper">
+	<div class="container">
+		{% for text, index in aboutme %}
+			<input type="radio" name="slide" id="c{{ index }}">
+			<label for="c{{ index }}" class='card'>
+				<div class='row'>
+					<div class="icon">{{ index }}</div>
+					<div class="description">
+						{{ text|safe }}
+					</div>
+				</div>
+			</label>
+		{% endfor %}
+	</div>
+</div>
+{% endblock %}
