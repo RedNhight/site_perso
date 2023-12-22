@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load static %}
+{% block link %}
+<link rel="stylesheet" href="{% static 'CSS/hover.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class='card-container'>
+	{% for pub in publications %}
+		<div class='pub-card'>
+			<img src="{{ pub.pic.url }}" class='pub-image'>
+			<div class="intro">
+				<h3 class='pub-title'>{{ pub.title }}</h3>
+				<p class='pub-description'>{{ pub.description }}</p>
+			</div>
+		</div>
+	{% endfor %}
+</div>
+{% endblock %}
