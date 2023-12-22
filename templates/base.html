@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar using HTML, CSS and Javascript</title>
+    <link rel="stylesheet" href="{% static 'CSS/base.css' %}">
+    <!-- <link rel="stylesheet" href="{% static 'CSS/hover.css' %}"> -->
+    {% block link %}
+    {% endblock %}
+</head>
+<body>
+    <header>
+        <div class='chat-circle'>
+            <div class="side-line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="{% url 'homescreen:projects' %}" id="projects">
+                    Projects
+                </a></li>
+                <li><a href="{% url 'homescreen:basic' %}#whoami" id="whoami">
+                    Who am I
+                </a></li>
+                <li><a href="{% url 'homescreen:basic' %}#aboutme" id='aboutme'>
+                    About me
+                </a></li>
+                <li><a href="{% url 'homescreen:basic' %}#experience" id="experience">
+                    Experience
+                </a></li>
+                <li><a href="{% url 'homescreen:basic' %}#stack" id="stack">
+                    Stack
+                </a></li>
+                <li><a href="{% url 'homescreen:cv' %}" id="cv">
+                    CV
+                </a></li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+        function hashChanged() {
+            var inputs = document.querySelectorAll('input');
+            var labels = document.querySelectorAll('label');
+            var hash = window.location.hash;
+            if (!hash) {
+                var hash = window.location.pathname;
+            }
+            var links = document.querySelectorAll('a');
+            links.forEach(function(link, index) {
+                if (link.getAttribute('href').includes(hash) || link.getAttribute('id') === hash) {
+                    link.classList.add('active');
+                    if (index-1 < inputs.length) {
+                        inputs[index-1].checked = true;
+                        labels[index-1].checked = true;
+                    }
+                } else {
+                    link.classList.remove('active');
+                }
+            })
+        }
+
+        document.addEventListener("DOMContentLoaded", hashChanged);
+        window.addEventListener("hashchange", hashChanged, false);
+
+    </script>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>

@@ -1,0 +1,62 @@
+.pub-image {
+/*	width: 350px;*/
+	height: 500px;
+	border-radius: 3px;
+}
+
+
+.card-container {
+	display: flex;
+}
+
+.pub-card {
+	transition: 0.5s;
+/*	width: 500px;*/
+	height: 500px;
+	margin: 50px;
+	box-shadow: 1px 1px 10px black;
+	overflow: hidden;
+}
+
+
+.intro {
+	transition: 0.5s;
+	bottom: 405px;
+	height: 100px;
+	width: 500px;
+	padding: 6px;
+	box-sizing: border-box;
+	position: absolute;
+	background: rgb(27, 27, 27, 0.5);
+	color: white;
+}
+
+
+.pub-title {
+	margin: 10px;
+	font-size: 40px;
+}
+
+.pub-description {
+	visibility: hidden;
+	opacity: 0;
+	font-size: 20px;
+	margin: 20px;
+}
+
+
+.pub-card:hover {
+	box-shadow: 5px 5px 20px black;
+	cursor: pointer;
+}
+
+
+.pub-card:hover .intro {
+	height: 200px;
+	background: black;
+}
+
+.pub-card:hover .pub-description {
+	opacity: 1;
+	visibility: visible;
+}

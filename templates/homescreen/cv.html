@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<iframe src="{% static 'files/CV(2023).pdf' %}"></iframe>
+<style type="text/css">
+	iframe {
+		width: 1920px;
+		height: 1080px;
+		border: none;
+		align: center;
+	}
+</style>
+{% endblock %}
